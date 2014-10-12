@@ -1,8 +1,19 @@
 .content {
 	text-align: center;
 }
-.input {
-	/* Figure out why the searchBar is not changing font size with em
-	font-size:__em;
-	*/
+
+img[name="googleLogo"] {
+	padding: 0.5em;
+}
+
+input[name="searchBar"] {
+	font-size: 1em;
+	width: 35em;
+	padding: 0.25em;
+	margin: 0.5em;
+}
+
+button {
+	padding: 0.25em;
+	margin: 0.5em;
 }
