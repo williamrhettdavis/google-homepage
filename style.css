@@ -1,11 +1,16 @@
+.toolbar {
+	position: relative;
+	left: auto;
+}
 .toolbar li{
 	display: inline;
-	
-	margin: 0em 1em;
+	margin: 0em 0.5em;
 }
 .content {
-	text-align: center;
-/*	How do I apply left and right margins to content in its entirety?*/	
+	position: relative;
+	right: 6em;
+	left: 6em;
+	text-align: center;	
 }
 
 img[name="googleLogo"] {
@@ -21,8 +26,5 @@ input[name="searchBar"] {
 
 button {
 	padding: 0.25em;
-/*	Might need to separate buttons so that I can apply the margin
-	to the right side of the the first and left side of the second.
-	Right now, there is a 0.5em margin on all sides of each.*/
 	margin: 0.5em;
 }
